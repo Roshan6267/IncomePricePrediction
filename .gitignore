@@ -1,6 +1,7 @@
 incom
 build
 dist
-RegressorProject.egg-info
+IncomPricePrediction.egg-info
 logs
+.env
 __pycache__
