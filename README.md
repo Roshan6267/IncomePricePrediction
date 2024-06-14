@@ -2,9 +2,9 @@
 
 ### created a environment
 ```
-conda create -p python==3.8
+conda create -p income python==3.8
 
-conda activate venv/
+conda activate income/
 ```
 ### install all necessary libraries
 ```
