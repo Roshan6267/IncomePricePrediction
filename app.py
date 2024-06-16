@@ -4,8 +4,8 @@ from src.pipeline.prediction_pipeline import CustomData,PredictPipeline
 
 application=Flask(__name__)
 
-app=application
 
+app=application
 
 @app.route('/')
 def home_page():
@@ -43,5 +43,3 @@ def predict_datapoint():
             output = "More than 50K"
         return render_template('results.html',final_result=output)
     
-if __name__=="__main__":
-    app.run(host='0.0.0.0',debug=True)
