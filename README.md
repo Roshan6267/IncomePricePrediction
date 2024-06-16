@@ -20,7 +20,7 @@ docker build -t incomeprediction:latest .
 2. Github Workflow
 3. Iam User In AWS
 ```
-## Docker Setup In EC2 commands to be Executed
+### Docker Setup In EC2 commands to be Executed
 
 ```
 
@@ -38,12 +38,12 @@ sudo sh get-docker.sh
 
 sudo usermod -aG docker ubuntu
 
-newgrp docker
+newgrp 
+```
+#### Configure EC2 as self-hosted runner:
 
-## Configure EC2 as self-hosted runner:
-
-## Setup github secrets:
-
+### Setup github secrets:
+```
 AWS_ACCESS_KEY_ID 
 
 AWS_SECRET_ACCESS_KEY
