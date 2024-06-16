@@ -43,6 +43,7 @@ newgrp
 #### Configure EC2 as self-hosted runner:
 
 ### Setup github secrets:
+
 ```
 AWS_ACCESS_KEY_ID 
 
